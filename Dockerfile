@@ -1,5 +1,5 @@
-FROM dockerfile/java:oracle-java8
-MAINTAINER Mads Hvelplund "mads.hvelplund@endomondo.com"
+FROM java:8
+MAINTAINER Mads Hvelplund <mads@swissarmyronin.dk>
 
 ENV CRUCIBLE_VERSION 3.7.0
 
